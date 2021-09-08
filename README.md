@@ -24,7 +24,6 @@ has_many :cards
 
 ### Card
 belongs_to :course
-has_many :colors, through: :palletcolors
 - Phrase
 - Definition
 
